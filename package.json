@@ -1,13 +1,13 @@
 {
   "name": "@emanueletoffolon/ionic-base-service",
   "version": "0.0.3",
-  "main": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
-  "module": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
-  "types": "public-api.d.ts",
+  "main": "dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "module": "dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "types": "dist/ionic-base-service/public-api.d.ts",
   "exports": {
     ".": {
-      "import": "./fesm2022/emanueletoffolon-ionic-base-service.mjs",
-      "types": "./public-api.d.ts"
+      "import": "./dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
+      "types": "./dist/ionic-base-service/public-api.d.ts"
     }
   },
   "scripts": {
