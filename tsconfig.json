@@ -4,8 +4,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "base-service": [
-        "./dist/base-service"
+      "ionic-base-service": [
+        "./dist/ionic-base-service"
       ]
     },
     "outDir": "./dist/out-tsc",

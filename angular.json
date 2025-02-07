@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "base-service": {
+    "ionic-base-service": {
       "projectType": "library",
-      "root": "projects/base-service",
-      "sourceRoot": "projects/base-service/src",
+      "root": "projects/ionic-base-service",
+      "sourceRoot": "projects/ionic-base-service/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/base-service/ng-package.json"
+            "project": "projects/ionic-base-service/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/base-service/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ionic-base-service/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/base-service/tsconfig.lib.json"
+              "tsConfig": "projects/ionic-base-service/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,7 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "tsConfig": "projects/base-service/tsconfig.spec.json",
+            "tsConfig": "projects/ionic-base-service/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

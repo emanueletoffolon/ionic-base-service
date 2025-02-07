@@ -4,7 +4,7 @@ import { Network } from '@capacitor/network';
 @Injectable({
   providedIn: 'root',
 })
-export class BaseService {
+export class IonicBaseService {
   constructor() {}
 
   async isOffline(): Promise<boolean> {
