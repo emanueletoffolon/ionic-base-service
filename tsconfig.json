@@ -4,7 +4,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "ionic-base-service": [
+      "@emanueletoffolon/ionic-base-service": [
         "./dist/ionic-base-service"
       ]
     },
