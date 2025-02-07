@@ -1,6 +1,8 @@
 {
   "name": "base-service",
-  "version": "0.0.0",
+  "version": "0.0.2",
+  "main": "dist/base-service/index.js",
+  "types": "dist/base-service/index.d.ts",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
