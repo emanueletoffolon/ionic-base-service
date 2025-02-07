@@ -1,8 +1,15 @@
 {
   "name": "@emanueletoffolon/ionic-base-service",
   "version": "0.0.3",
-  "main": "dist/ionic-base-service/index.js",
-  "types": "dist/ionic-base-service/index.d.ts",
+  "main": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "module": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "types": "public-api.d.ts",
+  "exports": {
+    ".": {
+      "import": "./fesm2022/emanueletoffolon-ionic-base-service.mjs",
+      "types": "./public-api.d.ts"
+    }
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
