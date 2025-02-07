@@ -1,6 +1,6 @@
 {
   "name": "@emanueletoffolon/ionic-base-service",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
   "module": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
   "types": "public-api.d.ts",
