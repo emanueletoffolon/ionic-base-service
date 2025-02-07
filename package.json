@@ -1,13 +1,13 @@
 {
   "name": "@emanueletoffolon/ionic-base-service",
   "version": "0.0.3",
-  "main": "dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
-  "module": "dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
-  "types": "dist/ionic-base-service/public-api.d.ts",
+  "main": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "module": "fesm2022/emanueletoffolon-ionic-base-service.mjs",
+  "types": "public-api.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/ionic-base-service/fesm2022/emanueletoffolon-ionic-base-service.mjs",
-      "types": "./dist/ionic-base-service/public-api.d.ts"
+      "import": "./fesm2022/emanueletoffolon-ionic-base-service.mjs",
+      "types": "./public-api.d.ts"
     }
   },
   "scripts": {
@@ -18,20 +18,10 @@
     "test": "ng test"
   },
   "private": true,
-  "dependencies": {
-    "@angular/animations": "^19.1.0",
-    "@angular/common": "^19.1.0",
-    "@angular/compiler": "^19.1.0",
-    "@angular/core": "^19.1.0",
-    "@angular/forms": "^19.1.0",
-    "@angular/platform-browser": "^19.1.0",
-    "@angular/platform-browser-dynamic": "^19.1.0",
-    "@angular/router": "^19.1.0",
-    "rxjs": "~7.8.0",
-    "tslib": "^2.3.0",
-    "zone.js": "~0.15.0"
-  },
   "peerDependencies": {
+    "@angular/core": "^19.1.0",
+    "@angular/common": "^19.1.0",
+    "@capacitor/core": "^7.0.0",
     "@capacitor/network": "^7.0.0"
   },
   "devDependencies": {
